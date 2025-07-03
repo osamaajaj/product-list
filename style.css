@@ -461,3 +461,163 @@ main .products .card{
     margin: auto;
     cursor: pointer;
 }
+
+@media (max-width:527px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        flex-direction: column;
+        width: 100%;
+        padding: 25px;
+        align-items: center;
+    }
+
+    main .products{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .products .card .photo{
+        max-width: 100%;
+    }
+
+    .com{
+        width: 100%;
+        top: unset;
+        bottom: 0;
+        left: 0;
+        transform: unset;
+        height: 85%;
+    }
+
+    .com .succses img{
+        width: 150%;
+    }
+    .com >h1 {
+        font-size: 3rem;
+        margin-top: 40px;
+        color: var(--Rose900);
+    }
+
+    .com >p{
+        font-size: 1.2rem;
+    }
+
+    .com-container .list-com{
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+}
+
+
+@media (min-width:527px) and (max-width:900px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        flex-direction: column;
+        width: 100%;
+        padding: 25px;
+        align-items: center;
+    }
+
+    main .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main .products .card .photo{
+        max-width: 100%;
+    }
+
+    .cart{
+        width: 100%;
+    }
+
+    .com{
+        width: 100%;
+        top: unset;
+        bottom: 0;
+        left: 0;
+        transform: unset;
+        height: 85%;
+    }
+
+    .com .succses img{
+        width: 150%;
+    }
+    .com >h1 {
+        font-size: 3rem;
+        margin-top: 40px;
+        color: var(--Rose900);
+    }
+
+    .com >p{
+        font-size: 1.2rem;
+    }
+
+    .com-container .list-com{
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+}
+
+
+@media (min-width:900px) and (max-width:1330px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        flex-direction: column;
+        width: 100%;
+        padding: 25px;
+        align-items: center;
+    }
+
+    main .products{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main .products .card .photo{
+        max-width: 100%;
+    }
+
+    .cart{
+        width: 100%;
+    }
+
+    .com{
+        width: 100%;
+        top: unset;
+        bottom: 0;
+        left: 0;
+        transform: unset;
+        height: 85%;
+    }
+
+    .com .succses img{
+        width: 150%;
+    }
+    .com >h1 {
+        font-size: 3rem;
+        margin-top: 40px;
+        color: var(--Rose900);
+    }
+
+    .com >p{
+        font-size: 1.2rem;
+    }
+
+    .com-container .list-com{
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+}
